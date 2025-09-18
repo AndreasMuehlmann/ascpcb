@@ -1,4 +1,11 @@
-26634610375616589
+26657061094249084
+12402012E212A
+AMPHENOL_12402012E212A
+
+
+0
+16
+16
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +20,20 @@ audio belton reverb
 0
 7
 7
+B2B-PH-K-S
+JST_B2B-PH-K-S
+
+
+0
+2
+2
+BQ24040DSQR
+SON40P200X200X80-11N
+
+
+0
+11
+11
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -69299,6 +69320,13 @@ solder jumper open
 0
 3
 3
+L135_G525003500000
+LED_L135-G525003500000
+
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -99203,6 +99231,20 @@ Logo WEEE
 0
 0
 0
+TL3305AF260QG
+SW_TL3305AF260QG
+
+
+0
+4
+4
+TLV75801PDRVR
+SON65P200X200X80-7N
+
+
+0
+7
+7
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

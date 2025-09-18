@@ -1,11 +1,6 @@
-- Simulation?
-
-TODO: Richtige ESP32 version
-TODO: Schalter
-TODO: LEDs
 TODO: Pin Header einfügen
 
-
+- Simulation? no
 - ERC
 - Wann Labels, wann Spannungssymbole 
 - Boot und Enable (wieso Kondensatoren)
@@ -20,3 +15,5 @@ https://www.digikey.de/de/products/filter/energiemanagement-pmic/spannungsregler
 
 Platinen Design:
 - Beschriftungen
+
+L135-G525003500000
