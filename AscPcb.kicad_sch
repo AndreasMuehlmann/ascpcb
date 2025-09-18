@@ -2730,6 +2730,12 @@
 		(uuid "178a9532-4d2b-45df-a105-d04173ef3109")
 	)
 	(junction
+		(at 254 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1838e931-3095-4faf-aa67-da5a16723ccc")
+	)
+	(junction
 		(at 246.38 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3145,6 +3151,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 115.57) (xy 254 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a06f37c-bac8-4fec-9f8d-d974b8dafc0f")
+	)
+	(wire
+		(pts
 			(xy 246.38 144.78) (xy 246.38 139.7)
 		)
 		(stroke
@@ -3245,7 +3261,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 119.38) (xy 262.89 119.38)
+			(xy 203.2 87.63) (xy 205.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eed9f5d-c205-460a-bcb3-a669e6b32fce")
+	)
+	(wire
+		(pts
+			(xy 246.38 119.38) (xy 254 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3262,6 +3288,26 @@
 			(type default)
 		)
 		(uuid "714958ea-ed10-407c-8342-3e17b4a3e49d")
+	)
+	(wire
+		(pts
+			(xy 254 119.38) (xy 262.89 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73fc659f-fe2d-48c9-a2e8-21d9e6ceeed0")
+	)
+	(wire
+		(pts
+			(xy 220.98 41.91) (xy 220.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747c0dfc-d37d-48c1-9232-b3cbb5f41bef")
 	)
 	(wire
 		(pts
@@ -3535,6 +3581,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 100.33) (xy 48.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3991db0-d0dc-40cc-9b15-4249ac6de91a")
+	)
+	(wire
+		(pts
 			(xy 233.68 119.38) (xy 246.38 119.38)
 		)
 		(stroke
@@ -3542,6 +3598,16 @@
 			(type default)
 		)
 		(uuid "c8542a9c-53dc-4039-b367-60ff0670e6b1")
+	)
+	(wire
+		(pts
+			(xy 203.2 85.09) (xy 205.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93869fb-4de6-46db-a66a-44df211c1691")
 	)
 	(wire
 		(pts
@@ -3625,6 +3691,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 115.57) (xy 213.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee03bbb-0bde-4032-8724-46e85384af53")
+	)
+	(wire
+		(pts
 			(xy 168.91 160.02) (xy 161.29 160.02)
 		)
 		(stroke
@@ -3665,6 +3741,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 128.27) (xy 76.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9498e52-8e2e-451f-962f-e7d38653615c")
+	)
+	(wire
+		(pts
 			(xy 168.91 130.81) (xy 168.91 160.02)
 		)
 		(stroke
@@ -3685,7 +3771,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 205.74 85.09 180)
+		(at 203.2 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3695,7 +3781,7 @@
 		)
 		(uuid "03c48b39-4a64-4f1e-9f9a-f42ad2a4071a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.9124 85.09 0)
+			(at 197.3724 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3815,7 @@
 	)
 	(global_label "5VIN"
 		(shape input)
-		(at 76.2 130.81 90)
+		(at 76.2 128.27 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3739,7 +3825,7 @@
 		)
 		(uuid "2939d5f0-9500-40e7-8261-8b45f5a62b2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 123.5914 90)
+			(at 76.2 121.0514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3837,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 254 119.38 90)
+		(at 254 115.57 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3761,7 +3847,7 @@
 		)
 		(uuid "51f46793-1d02-4d25-a034-915084c5a4f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 112.8872 90)
+			(at 254 109.0772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +3859,7 @@
 	)
 	(global_label "POWER"
 		(shape input)
-		(at 213.36 119.38 90)
+		(at 213.36 115.57 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3783,7 +3869,7 @@
 		)
 		(uuid "591d8dd4-a80b-4c2a-a43b-1b76062368f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 109.9239 90)
+			(at 213.36 106.1139 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3881,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 220.98 44.45 90)
+		(at 220.98 41.91 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3805,7 +3891,7 @@
 		)
 		(uuid "5ce3e9ea-ad42-4fa6-9b90-10ae109eb654")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 37.9572 90)
+			(at 220.98 35.4172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3903,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 205.74 87.63 180)
+		(at 203.2 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3827,7 +3913,7 @@
 		)
 		(uuid "8a9abfa1-d715-4cb7-8a46-5678ed0616d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.9124 87.63 0)
+			(at 197.3724 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +3969,7 @@
 	)
 	(global_label "5VIN"
 		(shape input)
-		(at 48.26 100.33 0)
+		(at 50.8 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3893,7 +3979,7 @@
 		)
 		(uuid "d2a8e471-0b25-4000-b8cf-4d0afced603c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4786 100.33 0)
+			(at 58.0186 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +4670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/40189/t58.pdf"
 			(at 262.89 55.88 0)
 			(effects
 				(font
@@ -4594,6 +4680,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T58MM106M6R3C0500"
 			(at 262.89 55.88 0)
 			(effects
 				(font
@@ -4721,7 +4816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
 			(at 177.8 83.82 0)
 			(effects
 				(font
@@ -4731,6 +4826,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B105KP8NNNC"
 			(at 177.8 83.82 0)
 			(effects
 				(font
@@ -5100,7 +5204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
 			(at 262.89 123.19 0)
 			(effects
 				(font
@@ -5110,6 +5214,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B105KP8NNNC"
 			(at 262.89 123.19 0)
 			(effects
 				(font
@@ -5323,7 +5436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
 			(at 60.96 134.62 0)
 			(effects
 				(font
@@ -5333,6 +5446,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 60.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B105KP8NNNC"
 			(at 60.96 134.62 0)
 			(effects
 				(font
@@ -5866,7 +5988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
 			(at 201.93 123.19 0)
 			(effects
 				(font
@@ -5876,6 +5998,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B105KP8NNNC"
 			(at 201.93 123.19 0)
 			(effects
 				(font
@@ -6411,7 +6542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 245.11 55.88 0)
 			(effects
 				(font
@@ -6421,6 +6552,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 245.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K8RACTU"
 			(at 245.11 55.88 0)
 			(effects
 				(font
@@ -6941,7 +7081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
 			(at 186.69 55.88 0)
 			(effects
 				(font
@@ -6951,6 +7091,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 186.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B105KP8NNNC"
 			(at 186.69 55.88 0)
 			(effects
 				(font
@@ -7157,7 +7306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
 			(at 129.54 142.24 0)
 			(effects
 				(font
@@ -7167,6 +7316,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B105KP8NNNC"
 			(at 129.54 142.24 0)
 			(effects
 				(font

@@ -1,0 +1,11 @@
+- LEDS
+- Simulation?
+- ERC
+
+TODO: Pin Header einfügen
+
+- Wann Labels, wann Spannungssymbole 
+- Boot und Enable (wieso Kondensatoren)
+- Spezielle teilnummern?
+- Decoupling Kondensatoren nur am IC? nachschauen
+- Tantulum vs. Electrolytic
