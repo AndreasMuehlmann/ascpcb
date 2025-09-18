@@ -1,6 +1,10 @@
 - Simulation?
 
+TODO: Richtige ESP32 version
+TODO: Schalter
+TODO: LEDs
 TODO: Pin Header einfügen
+
 
 - ERC
 - Wann Labels, wann Spannungssymbole 
@@ -13,3 +17,6 @@ TODO: Pin Header einfügen
 https://www.digikey.de/de/products/detail/jst-sales-america-inc/B2B-PH-K-S/926611
 https://www.digikey.de/de/products/detail/texas-instruments/BQ24040DSQR/2231631?s=N4IgTCBcDaIEIEUwBYAMaAiBlBAlEAugL5A
 https://www.digikey.de/de/products/filter/energiemanagement-pmic/spannungsregler-linear-ldo-regler-low-drop-out-niedriger-spannungseinbruch/699?s=N4IgTCBcDaICoBkBqB2ArADgAwEYAKAIgEpIgC6AvkA
+
+Platinen Design:
+- Beschriftungen
