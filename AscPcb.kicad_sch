@@ -4026,7 +4026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 198.12 58.42 0)
 			(effects
 				(font
@@ -4036,6 +4036,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 198.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 198.12 58.42 0)
 			(effects
 				(font
@@ -4437,7 +4446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10k"
 			(at 248.92 124.4599 0)
 			(effects
 				(font
@@ -4455,7 +4464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 246.38 123.19 0)
 			(effects
 				(font
@@ -4465,6 +4474,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 246.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 246.38 123.19 0)
 			(effects
 				(font
@@ -5068,7 +5086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 275.59 123.19 0)
 			(effects
 				(font
@@ -5078,6 +5096,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 275.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW06031K00FKEA"
 			(at 275.59 123.19 0)
 			(effects
 				(font
@@ -5626,7 +5653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 52.07 105.41 0)
 			(effects
 				(font
@@ -5637,6 +5664,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 52.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW06031K00FKEA"
+			(at 52.07 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 195.58 67.31 0)
 			(effects
 				(font
@@ -5706,6 +5742,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 195.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 195.58 67.31 0)
 			(effects
 				(font
@@ -5766,7 +5811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 161.29 139.7 0)
 			(effects
 				(font
@@ -5776,6 +5821,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW06031K00FKEA"
 			(at 161.29 139.7 0)
 			(effects
 				(font
@@ -5834,7 +5888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 182.88 77.47 0)
 			(effects
 				(font
@@ -5845,6 +5899,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 182.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 182.88 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "540"
+		(property "Value" "536"
 			(at 72.39 142.2399 0)
 			(effects
 				(font
@@ -6133,7 +6196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 69.85 140.97 0)
 			(effects
 				(font
@@ -6143,6 +6206,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 69.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3EKF5360V"
 			(at 69.85 140.97 0)
 			(effects
 				(font
@@ -6203,7 +6275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 147.32 139.7 0)
 			(effects
 				(font
@@ -6213,6 +6285,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW06031K00FKEA"
 			(at 147.32 139.7 0)
 			(effects
 				(font
@@ -6454,7 +6535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "49.9k"
 			(at 248.92 137.1599 0)
 			(effects
 				(font
@@ -6472,7 +6553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 246.38 135.89 0)
 			(effects
 				(font
@@ -6482,6 +6563,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TNPW060349K9BEEA"
 			(at 246.38 135.89 0)
 			(effects
 				(font
@@ -7158,7 +7248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 62.23 107.95 0)
 			(effects
 				(font
@@ -7169,6 +7259,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 62.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW06031K00FKEA"
+			(at 62.23 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +7550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 186.69 48.26 0)
 			(effects
 				(font
@@ -7461,6 +7560,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 186.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
 			(at 186.69 48.26 0)
 			(effects
 				(font
