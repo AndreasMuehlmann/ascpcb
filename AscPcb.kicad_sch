@@ -4923,28 +4923,6 @@
 			)
 		)
 	)
-	(global_label "IO10"
-		(shape input)
-		(at 255.27 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3110972e-3ad1-4e9a-b572-4cebdef88fe9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.9305 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO0"
 		(shape input)
 		(at 204.47 57.15 180)
@@ -5002,6 +4980,28 @@
 		(uuid "5e48b80c-6a0d-4fea-879f-890c168076f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 249.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO21"
+		(shape input)
+		(at 255.27 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a2c2266-a1f5-45cc-b26f-6e6e2c027be4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.9305 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,28 +5183,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IO21"
-		(shape input)
-		(at 255.27 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae5446c2-1a03-4f2f-bac1-57f844033dd2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.9305 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5429,6 +5407,28 @@
 			)
 		)
 	)
+	(global_label "IO10"
+		(shape input)
+		(at 255.27 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa02e775-e666-44ec-a2c3-74a68b43b836")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.9305 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "L135-G525003500000:L135-G525003500000")
 		(at 147.32 154.94 270)
@@ -5439,7 +5439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "014054c6-a5a0-44e0-b4af-4f33ef281465")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 152.4 151.6633 90)
 			(effects
 				(font
@@ -5552,7 +5552,7 @@
 		(instances
 			(project ""
 				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
