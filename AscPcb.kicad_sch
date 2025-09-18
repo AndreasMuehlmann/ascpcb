@@ -2768,12 +2768,6 @@
 		(uuid "27c8ea57-8b78-4828-a178-8c3a8eb8223c")
 	)
 	(junction
-		(at 147.32 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38794fbb-e9b9-4a70-94a9-431eda71bc71")
-	)
-	(junction
 		(at 175.26 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2826,6 +2820,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7ff80ac-56ec-468e-b21d-c8d87de56a92")
+	)
+	(junction
+		(at 147.32 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b505ee80-5acf-43fe-97cd-04f63f2f2eec")
 	)
 	(junction
 		(at 76.2 130.81)
@@ -3135,7 +3135,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 135.89) (xy 161.29 135.89)
+			(xy 129.54 135.89) (xy 147.32 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3555,6 +3555,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 135.89) (xy 161.29 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937480ff-5606-4e9a-b3ec-53ed8e5a4d76")
+	)
+	(wire
+		(pts
 			(xy 195.58 80.01) (xy 205.74 80.01)
 		)
 		(stroke
@@ -3772,16 +3782,6 @@
 			(type default)
 		)
 		(uuid "c9483ba5-60ef-4244-b269-c6f32903cdea")
-	)
-	(wire
-		(pts
-			(xy 129.54 135.89) (xy 147.32 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cad93cb3-b986-4dbc-bb8c-15856d6a55b1")
 	)
 	(wire
 		(pts
@@ -4590,6 +4590,85 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 275.59 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1565d96e-1048-4ff1-b132-0418b33dc5b4")
+		(property "Reference" "R8"
+			(at 278.13 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30"
+			(at 278.13 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 273.812 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/31098/rcp.pdf"
+			(at 275.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 275.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCP0603B30R0GEA"
+			(at 275.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6dc0ddd0-a16e-4ec0-90cd-2e8d78fc7dbf")
+		)
+		(pin "1"
+			(uuid "c582cbf5-2e49-4d77-8e66-f48d619abf63")
+		)
+		(instances
+			(project "AscPcb"
+				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 246.38 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4598,7 +4677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15c55a25-b56a-4347-89f8-97f9a6db5d94")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 248.92 121.9199 0)
 			(effects
 				(font
@@ -4661,7 +4740,7 @@
 		(instances
 			(project ""
 				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4896,7 +4975,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 151.13 153.9874 90)
 			(effects
 				(font
@@ -4914,7 +4993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/bdd601746f8167afedf64510f38e513dbbeafa37"
 			(at 147.32 151.13 0)
 			(effects
 				(font
@@ -4934,6 +5013,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 147.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "L135-R625003500001"
+			(at 147.32 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,85 +5663,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 275.59 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "456d65d7-0665-4d8f-a463-b99702386fff")
-		(property "Reference" "R6"
-			(at 278.13 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 278.13 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 273.812 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 275.59 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 275.59 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW06031K00FKEA"
-			(at 275.59 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d222898e-33a5-471c-8baf-42a3254d416b")
-		)
-		(pin "1"
-			(uuid "ae0b6199-c640-429f-b19d-e252a7fef3f2")
-		)
-		(instances
-			(project "AscPcb"
-				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 186.69 59.69 0)
 		(unit 1)
@@ -5793,85 +5802,6 @@
 			(project "AscPcb"
 				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 275.59 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "571b898c-aa1e-4cf6-bfd0-11b4d9e2987a")
-		(property "Reference" "D1"
-			(at 279.4 137.4774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 279.4 140.0174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 275.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 275.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 275.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "00f251a8-be4d-476d-841c-d2be8bf295be")
-		)
-		(pin "1"
-			(uuid "a746f2ce-3da4-46f0-9ade-2699e0c61429")
-		)
-		(instances
-			(project ""
-				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6262,7 +6192,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "30"
 			(at 163.83 140.9699 0)
 			(effects
 				(font
@@ -6280,7 +6210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/31098/rcp.pdf"
 			(at 161.29 139.7 0)
 			(effects
 				(font
@@ -6298,7 +6228,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW06031K00FKEA"
+		(property "MPN" "RCP0603B30R0GEA"
 			(at 161.29 139.7 0)
 			(effects
 				(font
@@ -6846,85 +6776,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 147.32 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "862b0f79-3088-4d0f-8853-82e19dae9336")
-		(property "Reference" "R4"
-			(at 149.86 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 149.86 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 145.542 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 147.32 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 147.32 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW06031K00FKEA"
-			(at 147.32 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4bce5633-7f9f-4230-aab1-88eea09bfeb0")
-		)
-		(pin "1"
-			(uuid "05014963-fc2b-4230-8935-a78ea125ca9a")
-		)
-		(instances
-			(project "AscPcb"
-				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 254 40.64 0)
 		(unit 1)
@@ -7066,7 +6917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f2a189f-3263-4fe5-8305-59cd446b083a")
-		(property "Reference" "R2"
+		(property "Reference" "R7"
 			(at 248.92 134.6199 0)
 			(effects
 				(font
@@ -7129,7 +6980,7 @@
 		(instances
 			(project "AscPcb"
 				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7540,6 +7391,94 @@
 			(project "AscPcb"
 				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 275.59 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b27494c5-4a73-4a4c-ba32-f00261cc2975")
+		(property "Reference" "D1"
+			(at 279.4 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Green"
+			(at 279.4 140.0174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 275.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/bdd601746f8167afedf64510f38e513dbbeafa37"
+			(at 275.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 275.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 275.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "L135-R625003500001"
+			(at 275.59 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f05fd033-2e9e-4d43-9b10-f513183fd291")
+		)
+		(pin "1"
+			(uuid "7723a07e-1d00-4072-b7bd-e3cb7a9412ea")
+		)
+		(instances
+			(project "AscPcb"
+				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8020,6 +7959,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 147.32 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e67a2a91-a474-4ccc-a7a7-8778a1d4f7a4")
+		(property "Reference" "R4"
+			(at 149.86 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30"
+			(at 149.86 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 145.542 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/31098/rcp.pdf"
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCP0603B30R0GEA"
+			(at 147.32 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e3b5dfd-e385-4a04-a23b-946ef2e0d815")
+		)
+		(pin "1"
+			(uuid "b39f174d-7a7f-400d-9361-b1301acf48ff")
+		)
+		(instances
+			(project "AscPcb"
+				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "12402012E212A:12402012E212A")
 		(at 60.96 88.9 0)
 		(unit 1)
@@ -8198,7 +8216,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 165.1 153.9874 90)
 			(effects
 				(font
@@ -8216,7 +8234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/bdd601746f8167afedf64510f38e513dbbeafa37"
 			(at 161.29 151.13 0)
 			(effects
 				(font
@@ -8236,6 +8254,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 161.29 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "L135-G525003500000"
+			(at 161.29 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
