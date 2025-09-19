@@ -1,4 +1,4 @@
-TODO: Pin Header einfügen
+TODO: Switch 3 D model nicht richtig
 
 - Simulation? no
 - ERC

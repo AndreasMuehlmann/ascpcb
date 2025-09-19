@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -90,16 +90,16 @@
       9
     ],
     "col_widths": [
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      68
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -115,32 +115,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "AscPcb.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 1249,
-          "pos_y": 0,
-          "size_x": 2198,
-          "size_y": 1399
-        }
-      },
-      {
-        "name": "AscPcb.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": -7,
-          "pos_y": 0,
-          "size_x": 1270,
-          "size_y": 1399
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {
