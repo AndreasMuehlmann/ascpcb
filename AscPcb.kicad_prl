@@ -1,10 +1,12 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "GND"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -97,7 +99,7 @@
       10,
       10,
       10,
-      51
+      68
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -119,23 +121,23 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 3456,
-          "size_y": 1408
+          "maximized": false,
+          "pos_x": 1249,
+          "pos_y": 0,
+          "size_x": 2198,
+          "size_y": 1399
         }
       },
       {
         "name": "AscPcb.kicad_sch",
-        "open": false,
+        "open": true,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 3456,
-          "size_y": 1408
+          "maximized": false,
+          "pos_x": -7,
+          "pos_y": 0,
+          "size_x": 1270,
+          "size_y": 1399
         }
       }
     ]
