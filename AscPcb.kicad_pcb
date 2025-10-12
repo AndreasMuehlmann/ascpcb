@@ -9170,6 +9170,14 @@
 		(uuid "7da1473d-888f-4e87-8ec3-37c2c41b921f")
 	)
 	(via
+		(at 129.873 113.1452)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "84019114-106a-4db7-bbac-0be56e189579")
+	)
+	(via
 		(at 130.1496 99.6188)
 		(size 0.6)
 		(drill 0.3)

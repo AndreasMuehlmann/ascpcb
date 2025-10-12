@@ -1,3 +1,22 @@
+Fragen:
+Writing to serial times out
+Gold-Cap / Supercapacitor
+IMU mit oder ohne Magnetometer und dann UWB oder Lichtschranke
+
+TODO:
+Batterie-Stecker
+BQ Thermal Pad und Ground
+TLV Widerstände
+
+
+
+
+
+
+
+
+
+
 TODO: Switch 3 D model nicht richtig
 
 - Simulation? no
@@ -19,3 +38,19 @@ Platinen Design:
 L135-G525003500000
 
 https://www.amazon.de/-/en/Battery-Quadcopter-Helicopter-Compatible-Volantex/dp/B0DNKFWJHV/ref=sr_1_6?dib=eyJ2IjoiMSJ9.psZKPMBFW9VLv7D_Ilf8nP7hMoXim4nPrLRPmMDddsjkDOvim1iiBZLylKDpEh2fnAODVqmPmmFK5Qd621rNi9J3EEbD-7t1xlhYRtq1q7h-d39XxQWO9g7jt9LrCVdh3xTTEzRBxq6C4eftPVFD3YsLWCXFPrRnPAK1sjNSxw_QStLtHQGsPg1dqyq2ceKzJtF-Jk0vwqTNlgRPofLQWycn07839svyj59guisgrMPs4u8-oGQfmigcUGW2YeaTVSc-ndVQHmqQYrgWiA-p2RbzCeaabgAiL5AxdCQny8k.A95Lt-6vlG-OVTfIR53q7jN1Pz22hf4yvpbwYxQ2RZA&dib_tag=se&keywords=small+size+1s+lipo&qid=1758277711&sr=8-6
+
+
+IMU:
+BNO055 oder BNO08X aber I2C funktioniert nicht richtig.
+ICM20948 aber keine Fusionierungsalgorithmen beinhaltet, aber könnte vielleicht gehen.
+Neuere IMUs alle ohne Magnetometer, weil das Magnetometer Probleme macht, aber akkumulierender Fehler des Yaw.
+=> Ultra-Wide-Band oder RFID-Chips oder Lichtschranke
+
+
+Tachometer:
+Mit Rad und Lichtschranke
+
+Neue Platine:
+Gold-Cap oder Supercapacitor?
+Supercapacitor charger oder einfach ohne?
+

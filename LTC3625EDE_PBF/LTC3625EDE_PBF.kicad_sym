@@ -1,0 +1,138 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LTC3625EDE_PBF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 25.7556 9.1186 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "LTC3625EDE_PBF" (id 1) (at 25.1206 6.5786 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "LTC3625EDE_PBF:DFN-12_DE" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VENDOR" "Linear Technology" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER_PART_NUMBER" "ltc3625ede#pbf" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "LTC3625EDE_PBF_0_0"
+      (polyline
+        (pts (xy 7.62 5.08) (xy 7.62 -20.32)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -20.32) (xy 53.34 -20.32)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 53.34 -20.32) (xy 53.34 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 53.34 5.08) (xy 7.62 5.08)) (stroke (width 0.1524))
+      )
+      (pin passive line (at 0.0 0.0 0) (length 7.62)
+        (name "SW1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 0.0 -2.54 0) (length 7.62)
+        (name "VIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 0.0 -5.08 0) (length 7.62)
+        (name "CTL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 0.0 -7.62 0) (length 7.62)
+        (name "VSEL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 0.0 -10.16 0) (length 7.62)
+        (name "EN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 0.0 -12.7 0) (length 7.62)
+        (name "PROG"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 60.96 -15.24 180.0) (length 7.62)
+        (name "PFI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 60.96 -12.7 180.0) (length 7.62)
+        (name "*PFO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 60.96 -10.16 180.0) (length 7.62)
+        (name "PGOOD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 60.96 -7.62 180.0) (length 7.62)
+        (name "VMID"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 60.96 -5.08 180.0) (length 7.62)
+        (name "VOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 60.96 -2.54 180.0) (length 7.62)
+        (name "SW2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 60.96 0.0 180.0) (length 7.62)
+        (name "EPAD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
