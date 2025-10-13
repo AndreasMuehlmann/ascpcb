@@ -2873,7 +2873,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
+		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2892,7 +2892,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "D_Schottky"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2918,7 +2918,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2927,25 +2927,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2963,10 +2945,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -3001,7 +2983,7 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -9629,7 +9611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 364.49 160.02 0)
 			(effects
 				(font
@@ -12667,7 +12649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DMN1019USN-13:SC-59-pads-swapped"
 			(at 137.16 44.45 0)
 			(effects
 				(font
@@ -12676,7 +12658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN1019USN.pdf"
 			(at 134.62 39.37 0)
 			(effects
 				(font
@@ -12687,6 +12669,15 @@
 		)
 		(property "Description" "N-MOSFET transistor, drain/gate/source"
 			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMN1019USN-13"
+			(at 134.62 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12841,92 +12832,6 @@
 			(project ""
 				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 148.59 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a59f423-febb-466c-acce-32d3d7a287be")
-		(property "Reference" "D5"
-			(at 148.59 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 148.59 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 148.59 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 148.59 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d42e529a-7fb4-45ec-8369-4bfb3f5746ee")
-		)
-		(pin "1"
-			(uuid "477aeea8-d45f-459a-a3e4-825f9560fb60")
-		)
-		(instances
-			(project ""
-				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -17468,7 +17373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 121.92 146.05 0)
 			(effects
 				(font
@@ -17794,6 +17699,83 @@
 			(project "AscPcb"
 				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 148.59 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e348855c-d341-4cfa-8214-295b910f04a1")
+		(property "Reference" "D6"
+			(at 148.9075 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 148.9075 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 148.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/B220_A-B260_A.pdf"
+			(at 148.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 148.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B240A-13-F"
+			(at 148.59 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc170c7d-fa09-44a0-8bcf-75b972effbea")
+		)
+		(pin "2"
+			(uuid "a22a8416-649f-4296-8e99-3d61000a1c84")
+		)
+		(instances
+			(project ""
+				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -18326,7 +18308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef6066ef-3b25-4420-a0f7-4d6d734c734a")
-		(property "Reference" "z"
+		(property "Reference" "U6"
 			(at 64.77 212.09 0)
 			(effects
 				(font
@@ -18455,7 +18437,7 @@
 		(instances
 			(project ""
 				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "z")
+					(reference "U6")
 					(unit 1)
 				)
 			)
