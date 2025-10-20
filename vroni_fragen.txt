@@ -1,43 +1,8 @@
-Fragen:
-Writing to serial times out
-Gold-Cap / Supercapacitor
-IMU mit oder ohne Magnetometer und dann UWB oder Lichtschranke
-
-TODO:
-Batterie-Stecker
-BQ Thermal Pad und Ground
-TLV Widerstände
+- CP2102 bei ascpcb updaten
 
 
 
 
-
-
-
-
-
-
-TODO: Switch 3 D model nicht richtig
-
-- Simulation? no
-- ERC
-- Wann Labels, wann Spannungssymbole 
-- Boot und Enable (wieso Kondensatoren)
-- Spezielle teilnummern?
-- Decoupling Kondensatoren nur am IC? nachschauen
-- Tantulum vs. Electrolytic
-- LEDS - Rechner
-
-https://www.digikey.de/de/products/detail/jst-sales-america-inc/B2B-PH-K-S/926611
-https://www.digikey.de/de/products/detail/texas-instruments/BQ24040DSQR/2231631?s=N4IgTCBcDaIEIEUwBYAMaAiBlBAlEAugL5A
-https://www.digikey.de/de/products/filter/energiemanagement-pmic/spannungsregler-linear-ldo-regler-low-drop-out-niedriger-spannungseinbruch/699?s=N4IgTCBcDaICoBkBqB2ArADgAwEYAKAIgEpIgC6AvkA
-
-Platinen Design:
-- Beschriftungen
-
-L135-G525003500000
-
-https://www.amazon.de/-/en/Battery-Quadcopter-Helicopter-Compatible-Volantex/dp/B0DNKFWJHV/ref=sr_1_6?dib=eyJ2IjoiMSJ9.psZKPMBFW9VLv7D_Ilf8nP7hMoXim4nPrLRPmMDddsjkDOvim1iiBZLylKDpEh2fnAODVqmPmmFK5Qd621rNi9J3EEbD-7t1xlhYRtq1q7h-d39XxQWO9g7jt9LrCVdh3xTTEzRBxq6C4eftPVFD3YsLWCXFPrRnPAK1sjNSxw_QStLtHQGsPg1dqyq2ceKzJtF-Jk0vwqTNlgRPofLQWycn07839svyj59guisgrMPs4u8-oGQfmigcUGW2YeaTVSc-ndVQHmqQYrgWiA-p2RbzCeaabgAiL5AxdCQny8k.A95Lt-6vlG-OVTfIR53q7jN1Pz22hf4yvpbwYxQ2RZA&dib_tag=se&keywords=small+size+1s+lipo&qid=1758277711&sr=8-6
 
 
 IMU:
