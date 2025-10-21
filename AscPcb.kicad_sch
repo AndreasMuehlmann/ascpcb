@@ -7867,26 +7867,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 229.87) (xy 175.26 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d49c75f-5b41-429b-9bd3-48258512e70a")
-	)
-	(wire
-		(pts
-			(xy 154.94 207.01) (xy 175.26 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fe579d9-c85b-41b8-93ae-39155ccfd4fa")
-	)
-	(wire
-		(pts
 			(xy 335.28 241.3) (xy 336.55 241.3)
 		)
 		(stroke
@@ -8117,7 +8097,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 209.55) (xy 138.43 209.55)
+			(xy 173.99 209.55) (xy 175.26 209.55)
 		)
 		(stroke
 			(width 0)
@@ -9307,16 +9287,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 232.41) (xy 175.26 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f3efad4-8e5a-4dba-8c89-6d01f6940d9c")
-	)
-	(wire
-		(pts
 			(xy 359.41 170.18) (xy 359.41 172.72)
 		)
 		(stroke
@@ -9547,7 +9517,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 229.87) (xy 160.02 229.87)
+			(xy 173.99 229.87) (xy 175.26 229.87)
 		)
 		(stroke
 			(width 0)
@@ -9737,16 +9707,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 209.55) (xy 140.97 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae338ae5-c02f-4da5-8c15-09b9860b8bed")
-	)
-	(wire
-		(pts
 			(xy 359.41 180.34) (xy 359.41 185.42)
 		)
 		(stroke
@@ -9897,7 +9857,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 207.01) (xy 152.4 207.01)
+			(xy 173.99 207.01) (xy 175.26 207.01)
 		)
 		(stroke
 			(width 0)
@@ -10137,7 +10097,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 232.41) (xy 143.51 232.41)
+			(xy 173.99 232.41) (xy 175.26 232.41)
 		)
 		(stroke
 			(width 0)
@@ -10671,7 +10631,7 @@
 	)
 	(global_label "ESP_RXD"
 		(shape input)
-		(at 142.24 232.41 180)
+		(at 173.99 232.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10681,7 +10641,7 @@
 		)
 		(uuid "15b8ccbe-ceb6-4c9c-8054-d03aa8e61c2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.9092 232.41 0)
+			(at 162.6592 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,7 +11181,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 151.13 207.01 180)
+		(at 173.99 207.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11231,7 +11191,7 @@
 		)
 		(uuid "791e1323-3134-442c-b09c-3895152fe782")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.3024 207.01 0)
+			(at 168.1624 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12057,7 +12017,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 137.16 209.55 180)
+		(at 173.99 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12067,7 +12027,7 @@
 		)
 		(uuid "f0a57d92-4406-48bc-bbef-150058965010")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.3324 209.55 0)
+			(at 168.1624 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12101,7 +12061,7 @@
 	)
 	(global_label "ESP_TXD"
 		(shape input)
-		(at 158.75 229.87 180)
+		(at 173.99 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12111,7 +12071,7 @@
 		)
 		(uuid "f30bd227-23cc-4067-aa56-cd2e63613cbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7216 229.87 0)
+			(at 162.9616 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16195,77 +16155,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 140.97 204.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e30e088-46e6-4aaf-8a90-42c95d83f754")
-		(property "Reference" "J12"
-			(at 142.24 203.8349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 142.24 206.3749 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 140.97 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 140.97 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99c8b29c-c16b-400d-afd9-6dea25e2f203")
-		)
-		(pin "2"
-			(uuid "c6b76617-db31-45e0-b803-1bb1d9a439ec")
-		)
-		(instances
-			(project "AscPcb"
-				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 316.23 36.83 0)
 		(unit 1)
@@ -16722,77 +16611,6 @@
 			(project "AscPcb"
 				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 146.05 227.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6170d7c9-8b30-4744-8caf-8e6725b87ca1")
-		(property "Reference" "J14"
-			(at 147.32 226.6949 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 147.32 229.2349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 146.05 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 146.05 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "895ed81e-e173-48f6-8f98-4c04d4c3d99e")
-		)
-		(pin "2"
-			(uuid "0a0c276a-332b-4494-b033-a375cf40eae6")
-		)
-		(instances
-			(project "AscPcb"
-				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -20725,76 +20543,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 154.94 201.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a68ff127-c9a8-42cf-9312-1c83b0533d5a")
-		(property "Reference" "J11"
-			(at 152.146 200.152 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 156.21 203.8349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 154.94 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 154.94 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52ee19ac-d12b-44a1-a430-a362a28f71e3")
-		)
-		(pin "2"
-			(uuid "189c4aa3-c234-4cf5-807f-874ff29e553c")
-		)
-		(instances
-			(project "AscPcb"
-				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 132.08 106.68 0)
 		(unit 1)
@@ -24560,77 +24308,6 @@
 			(project "AscPcb"
 				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 162.56 224.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f20f5f86-09db-4b84-9281-36ce3d3e6e25")
-		(property "Reference" "J13"
-			(at 163.83 224.1549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 163.83 226.6949 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 162.56 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 162.56 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7b4b49e-0564-4d01-8c39-1343cebd4506")
-		)
-		(pin "2"
-			(uuid "f778de67-ae09-446b-936c-48608b3c6ffe")
-		)
-		(instances
-			(project "AscPcb"
-				(path "/15a81d81-777d-4164-ac7f-1386d28fdd79"
-					(reference "J13")
 					(unit 1)
 				)
 			)
